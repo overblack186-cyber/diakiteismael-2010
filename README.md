@@ -9,7 +9,19 @@ voix, vision et gestes personnalisés, actions sur le PC sous contrôle.
 
 ---
 
-## Démarrage rapide (Windows)
+## Installation sur votre PC (Windows, recommandé)
+
+1. Téléchargez le dossier NexaAI (archive ZIP) et décompressez-le (clic droit › *Extraire tout*).
+2. Double-cliquez sur **`installer_nexaai.bat`**. L'installateur, sans droits administrateur :
+   - vérifie Python 3.10+ et propose de l'installer avec `winget` s'il manque ;
+   - copie NexaAI dans `%LOCALAPPDATA%\Programs\NexaAI` ;
+   - crée les raccourcis **NexaAI** sur le Bureau et dans le menu Démarrer ;
+   - propose d'installer Ollama et le modèle `llama3.2` (≈ 2 Go) — chaque étape demande votre accord.
+3. Lancez NexaAI depuis l'icône du Bureau.
+
+Désinstallation : `desinstaller_nexaai.bat` (vos données ne sont supprimées que si vous le confirmez).
+
+## Démarrage rapide sans installation (Windows)
 
 1. **Python 3.10+** : <https://www.python.org/downloads/> — cochez « Add python.exe to PATH ».
    Aucune autre bibliothèque n'est nécessaire (NexaAI n'utilise que la bibliothèque standard).
